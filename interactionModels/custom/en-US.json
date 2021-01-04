@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "change me",
+      "invocationName": "i am feeling down",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -16,29 +16,77 @@
           "samples": []
         },
         {
-          "name": "HelloWorldIntent",
-          "slots": [],
-          "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
-            "say hello world",
-            "say hello"
-          ]
-        },
-        {
           "name": "AMAZON.NavigateHomeIntent",
           "samples": []
         },
         {
           "name": "AMAZON.FallbackIntent",
           "samples": []
+        },
+        {
+          "name": "ExamIntent",
+          "slots": [],
+          "samples": [
+            "I don\u0027t know what to study for my exam",
+            "I am not prepared for my exam today",
+            "I feel scared for my exam",
+            "I have an exam tomorrow",
+            "I have an exam tonight",
+            "I have an exam today",
+            "I have an exam",
+            "I am not prepared for my exam"
+          ]
+        },
+        {
+          "name": "MoodIntent",
+          "slots": [],
+          "samples": [
+            "I\u0027m in a bad mood",
+            "I\u0027m not in a good mood",
+            "I\u0027m sad",
+            "I\u0027m unhappy",
+            "I\u0027m having a bad day",
+            "I feel bad",
+            "I\u0027m not feeling well"
+          ]
+        },
+        {
+          "name": "SuicideIntent",
+          "slots": [],
+          "samples": [
+            "I have no reason to live",
+            "Is it even worth living",
+            "I want to end my life",
+            "I don\u0027t want to live anymore",
+            "I want to harm myself",
+            "I want to kill myself",
+            "Should I die",
+            "I want to die"
+          ]
+        },
+        {
+          "name": "LoneIntent",
+          "slots": [],
+          "samples": [
+            "Everyone hates me",
+            "My friends hate me",
+            "I have no friends",
+            "I wish I had friends",
+            "I miss my friends",
+            "I want to have friends",
+            "You are my only friend",
+            "I don\u0027t have friends",
+            "I\u0027m lonely"
+          ]
         }
       ],
-      "types": []
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
     }
   },
-  "version": "1"
+  "version": "3"
 }
